@@ -1,6 +1,7 @@
 import insure from '../assests/portfolio-images/insure.JPG'
 import sunnyside from '../assests/portfolio-images/sunnyside.JPG';
 import huddle from '../assests/portfolio-images/Huddle.JPG';
+import loopstudios from '../assests/portfolio-images/loopstudios.JPG';
 
 const Portfolio = () => {
 
@@ -22,6 +23,12 @@ const Portfolio = () => {
             src: huddle,
             link: 'https://pauldev-huddle-landing-page.netlify.app/',
             github: 'https://github.com/pauldevcodes/Huddle'
+        },
+        {
+            id: 3,
+            src: loopstudios,
+            link: 'https://pauldev-loopstudios.netlify.app/',
+            github: 'https://github.com/pauldevcodes/loopstudios'
         },
     ]
 
