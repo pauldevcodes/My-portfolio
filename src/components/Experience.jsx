@@ -4,9 +4,10 @@ import github from '../assests/github.png'
 import html from '../assests/html.png'
 import javascript from '../assests/javascript.png'
 import nextjs from '../assests/nextjs.png'
-import node from '../assests/node.png'
+// import node from '../assests/node.png'
 import reactImage from '../assests/react.png'
 import tailwind from '../assests/tailwind.png'
+import bootstrap from '../assests/bootstrap.png'
 
 const Experience = () => {
     const technologies = [
@@ -54,9 +55,9 @@ const Experience = () => {
         },
         {
             id: 8,
-            src: node,
-            title: 'Node',
-            style: 'shadow-lime-300'
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-violet-700'
         },
     ]
 

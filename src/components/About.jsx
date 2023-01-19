@@ -7,7 +7,7 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-20">
-                    Hello my name is Paul Okwulu, i'm a Full-Stack Developer currently specialized in Front-End Development and located in Lagos, Nigeria.
+                    Hello my name is Paul Okwulu, i'm a Front-end Developer located in Lagos, Nigeria.
 
                     <br /> <br />
 
