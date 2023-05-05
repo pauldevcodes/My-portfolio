@@ -2,30 +2,44 @@ import insure from '../assests/portfolio-images/insure.JPG'
 import sunnyside from '../assests/portfolio-images/sunnyside.JPG';
 import huddle from '../assests/portfolio-images/Huddle.JPG';
 import loopstudios from '../assests/portfolio-images/loopstudios.JPG';
+import movieland from '../assests/portfolio-images/movieland.JPG'
+import scooter from '../assests/portfolio-images/scooter.JPG'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
+            src: movieland,
+            link: 'https://movieland-by-pauldev.netlify.app/',
+            github: 'https://github.com/pauldevcodes/movieland-app'
+        },
+        {
+            id: 2,
+            src: scooter,
+            link: 'https://scooter-ride.netlify.app/',
+            github: 'https://github.com/pauldevcodes/scooter-multipage-site'
+        },
+        {
+            id: 3,
             src: insure,
             link: 'https://pauldev-insure-landing-page.netlify.app/',
             github: 'https://github.com/pauldevcodes/insure-landing-page'
         },
         {
-            id: 2,
+            id: 4,
             src: sunnyside,
             link: 'https://pauldev-sunnyside.netlify.app/',
             github: 'https://github.com/pauldevcodes/Sunny-Side-Agency-Landing-Page'
         },
         {
-            id: 3,
+            id: 5,
             src: huddle,
             link: 'https://pauldev-huddle-landing-page.netlify.app/',
             github: 'https://github.com/pauldevcodes/Huddle'
         },
         {
-            id: 3,
+            id: 6,
             src: loopstudios,
             link: 'https://pauldev-loopstudios.netlify.app/',
             github: 'https://github.com/pauldevcodes/loopstudios'
